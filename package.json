@@ -1,0 +1,32 @@
+{
+  "name": "prior-art",
+  "private": true,
+  "version": "4.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"node server/index.js\"",
+    "build": "vite build",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "latest",
+    "@aws-sdk/s3-request-presigner": "latest",
+    "@vitejs/plugin-react": "latest",
+    "bcryptjs": "latest",
+    "cookie-parser": "latest",
+    "concurrently": "latest",
+    "express": "latest",
+    "jsonwebtoken": "latest",
+    "mammoth": "latest",
+    "multer": "latest",
+    "mysql2": "latest",
+    "pdf-parse": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest",
+    "tesseract.js": "latest"
+  },
+  "devDependencies": {
+    "vite": "latest"
+  }
+}
